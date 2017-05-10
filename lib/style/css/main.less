@@ -165,15 +165,15 @@ blue{color:#007AFF;}
         .fa-times{background-color: #666; width: 2rem; height:2rem; text-align: center; color:#fff; border-radius:50%; padding-top:.4rem; right:-.5rem; top:-.5rem;}
       }
       .service{font-size: 1.6rem;}
-      .card-area{margin:0 -1rem; box-sizing: content-box; width:auto;
-        &>li{height:auto; width: 50%; display:inline-block;float: none;
+      .card-area{ margin:0 -1rem; box-sizing: border-box; display:block; width:auto; font-size: 0;
+        &>li{height:auto; width: 50%; display:inline-block;float: none; margin: 0 -1px -1px 0;
           &:hover{width: 50%; 
               .panel-card{position: static; border: 1px solid #ddd;  box-shadow:none;
-                  .panel-heading{background-color: #fff;padding:2rem 0;
+                  .panel-heading{ background-color: #fff;padding:2rem 0;
                       img{width: 100px; height:100px;}
                       .fa{font-size: 5rem;  color:#000;}
                       h1{font-size: 1.2rem; color:#333;}
-                      p{color:#999;}
+                      p{font-size: 1rem;color:#999;}
                   }
                   
                   .panel-body{font-size: 1rem; color:#666;}
@@ -186,12 +186,12 @@ blue{color:#007AFF;}
   }
   
   .panel-card{position: static;
-      .panel-heading{background-color: #fff; border-radius:0; text-align: center; padding:2rem 0; .ani;
+      .panel-heading{ background-color: #fff; border-radius:0; text-align: center; padding:2rem 0 1rem 0; .ani;
           *{.ani;}
           img{width: 100px; height:100px;}
           .fa{font-size: 12rem; color:#000;}
           h1{font-size: 1.2rem; color:#333}
-          p{color:#999;}
+          p{font-size: 1rem;color:#999;}
       }
       .panel-body{display:none;}
   }
